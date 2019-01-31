@@ -1,6 +1,4 @@
-﻿
-
-namespace PromoBotAPI.Controllers
+﻿namespace PromoBotAPI.Controllers
 {
     using System;
     using System.Collections.Generic;
