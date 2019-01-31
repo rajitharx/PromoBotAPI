@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoBotAPI", "PromoBotAPI\PromoBotAPI.csproj", "{ADC688C3-6F18-433D-BC36-62F87618A12F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADC688C3-6F18-433D-BC36-62F87618A12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC688C3-6F18-433D-BC36-62F87618A12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC688C3-6F18-433D-BC36-62F87618A12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC688C3-6F18-433D-BC36-62F87618A12F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67962563-513B-4E4E-9873-F59173F5ADC8}
+	EndGlobalSection
+EndGlobal
