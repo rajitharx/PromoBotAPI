@@ -3,16 +3,20 @@ namespace PromoBotAPI.Functions
 {
     using System;
     using System.IO;
+    using System.Security.Principal;
 
     public class UserManagment
     {
         public void RecordUser()
         {
-            var test = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+           //var test = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            //  var test = this.User.Identity.Name;
+
+            string username = WindowsIdentity.GetCurrent().Name;
 
             using (StreamWriter writer = new StreamWriter("log.txt", true))
             {
-                writer.WriteLine("UserName: " + test + ". Login Time: " + DateTime.Now.ToString() + "<br />");
+                writer.WriteLine("UserName: " + username + ". Login Time: " + DateTime.Now.ToString() + "<br />");
 
             }
         }
