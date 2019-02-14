@@ -16,7 +16,7 @@ namespace PromoBotAPI.Pages
 
             using (StreamWriter writer = new StreamWriter("log.txt", true))
             {
-                writer.WriteLine("UserName: " + test + ". Login Time: " + DateTime.Now.ToString());
+                writer.WriteLine("UserName: " + test + ". Login Time: " + DateTime.Now.ToString() + "<br />");
                 
             }
         }
