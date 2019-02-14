@@ -12,13 +12,13 @@ namespace PromoBotAPI.Pages
     {
         public void OnGet()
         {
-            var test = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            //var test = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
 
-            using (StreamWriter writer = new StreamWriter("log.txt", true))
-            {
-                writer.WriteLine("UserName: " + test + ". Login Time: " + DateTime.Now.ToString() + "<br />");
+            //using (StreamWriter writer = new StreamWriter("log.txt", true))
+            //{
+            //    writer.WriteLine("UserName: " + test + ". Login Time: " + DateTime.Now.ToString() + "<br />");
                 
-            }
+            //}
         }
     }
 }
